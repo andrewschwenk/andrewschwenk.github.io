@@ -2008,13 +2008,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-	#header .icons {
-		position: absolute;
-		top: 20px;
-		right: 20px;
-		z-index: 1000;
-	}
-
 	header h2 + p {
 		font-size: 1.25em;
 		line-height: 1.5em;
@@ -2564,6 +2557,13 @@ input, select, textarea {
 		}
 
 /* Icons */
+
+	.head-icons {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		z-index: 1000;
+	}
 
 	ul.icons {
 		cursor: default;
